@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystals Collector Game</title>
+
+    <link rel="stylesheet" href="assets/images/reset.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+</head>
+
+<body>
+    <container class="header">
+        <h1>Crystals Collector</h1>
+    </container>
+
+    <container class="instructions">
+        <p>You will be given a random number at the start of the game.<br><br>
+            There are four crystals below. By clicking a crystal you will add a specific amount of points to your total
+            score.<br><br>
+            You win the game by matching the total score to random number, you lose the game if your total score goes
+            above the random number.<br><br>
+            The value of each crystal is hidden until you click on it.<br><br>
+            Each time the game starts, the game will change the value of the crystals.<br>
+            <br>
+            <br></p>
+    </container>
+
+
+    <div class="row">
+        <box id="rdmnbr">
+            <div class="col-9">
+                <h2>Random Number</h2>
+            </div>
+        </box>
+        <box class="winloss">
+
+            <div class="col-lg-9">
+                <div class="row">
+                    <div class="col" style="margin-top: 5px;">
+                        <h3>Wins</h3>
+                    </div>
+                    <br>
+                </div>
+                <div class="row">
+                    <div class="col" style="margin-top: 25px;">
+                        <h3>Losses</h3>
+                    </div>
+                </div>
+            </div>
+        </box>
+    </div>
+
+
+    <div class="row">
+        <box class="score">
+            <h4>Your total score is:</h4>
+        </box>
+    </div>
+
+    <div class="row">
+        <box class="crystals">
+            <img class="img-1" src="https://media.istockphoto.com/photos/blue-crystal-3d-rendering-isolated-illustration-picture-id872840088?k=6&m=872840088&s=612x612&w=0&h=Bo8WumwXzH5WmCmjrXxhFkvfh3Xy2mFDAX4VG092SEU=">
+        <img class="img-2" src="https://image.shutterstock.com/image-photo/amazing-colorful-quartz-purple-titanium-260nw-756191887.jpg">
+        <img class="img-3" src="https://image.shutterstock.com/image-photo/amazing-colorful-quartz-rainbow-flame-260nw-736064353.jpg">
+        <img class="img-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-spH-OBL5gvwEw5EHK1Bl_ZRWKMTG1HNSeq2hwMoNGXPg-3bI&s">
+        </box>
+    </div>
+
+    <div class="row">
+        <box class="usrnbr">
+            <h4>User Number</h4>
+        </box>
+    </div>
+
+</body>
+
+</html>
